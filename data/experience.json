@@ -1,0 +1,78 @@
+{
+  "sectionTitle": "Professional Experience",
+  "subtitle": "Roles, responsibilities, and the impact delivered along the way.",
+  "experiences": [
+    {
+      "title": "Financial Analyst",
+      "company": "Capital One Financial",
+      "logo": "",
+      "period": "Jan 2025 – Present",
+      "location": "",
+      "description": "Architected Financial Modeling and valuation models in Advanced Excel, VBA, and SQL for business combinations and stock-based compensation, enhancing forecast accuracy and audit-ready financial reporting.\nDeveloped detailed accounting memoranda for revenue recognition, equity transactions, and acquisition-related analyses by interpreting GAAP guidance and financial data, enabling consistent regulatory compliance and accelerating audit review cycles by 25%.\nEvaluated internal control frameworks across revenue, equity, and financial reporting processes through risk assessments and control testing, identifying remediation opportunities that strengthened governance and reduced compliance risks by 20%.\nOptimized executive financial reporting by analyzing large financial datasets with Excel, Power BI, and Python, delivering KPI dashboards, variance analysis, and actionable business insights that improved strategic decision-making and reporting efficiency by 30%.\nSupported financial system implementation and reporting enhancements by validating financial data and developing Power BI and Tableau dashboards to monitor KPIs, trends, and variance analysis, improving management reporting and decision-making.\nStreamlined financial documentation and process workflows by standardizing control narratives, process flowcharts, and supporting evidence using Microsoft Excel, PowerPoint, and internal reporting tools, decreasing audit preparation time by 35% while enhancing process consistency.",
+      "responsibilities": [
+        "Architected Financial Modeling and valuation models in Advanced Excel, VBA, and SQL for business combinations and stock-based compensation, enhancing forecast accuracy and audit-ready financial reporting",
+        "Developed detailed accounting memoranda for revenue recognition, equity transactions, and acquisition-related analyses by interpreting GAAP guidance and financial data, enabling consistent regulatory compliance and accelerating audit review cycles by 25%",
+        "Evaluated internal control frameworks across revenue, equity, and financial reporting processes through risk assessments and control testing, identifying remediation opportunities that strengthened governance and reduced compliance risks by 20%",
+        "Optimized executive financial reporting by analyzing large financial datasets with Excel, Power BI, and Python, delivering KPI dashboards, variance analysis, and actionable business insights that improved strategic decision-making and reporting efficiency by 30%",
+        "Supported financial system implementation and reporting enhancements by validating financial data and developing Power BI and Tableau dashboards to monitor KPIs, trends, and variance analysis, improving management reporting and decision-making",
+        "Streamlined financial documentation and process workflows by standardizing control narratives, process flowcharts, and supporting evidence using Microsoft Excel, PowerPoint, and internal reporting tools, decreasing audit preparation time by 35% while enhancing process consistency"
+      ],
+      "technologies": [
+        "Advanced Excel",
+        "VBA",
+        "SQL",
+        "GAAP",
+        "Excel",
+        "Power BI",
+        "Python",
+        "Tableau",
+        "Microsoft Excel",
+        "PowerPoint"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "DiversiFi Capital LLC",
+      "logo": "",
+      "period": "Jan 2023 – Dec 2024",
+      "location": "",
+      "description": "Implemented portfolio risk assessment frameworks by analyzing diversified investments, equity compensation holdings, and market trends using Advanced Excel, Bloomberg Terminal, SQL, and Pitchbook, improving portfolio risk visibility and operational efficiency by 40%.\nPerformed investment and financial analysis by evaluating asset allocation, cash flow projections, and market performance through quantitative modeling, enabling data-driven portfolio optimization and personalized wealth management strategies for high-net-worth clients.\nGenerated executive market research and competitor analysis reports using Bloomberg Terminal, Excel, and Pitchbook, identifying investment opportunities and supporting strategic portfolio recommendations that strengthened client decision-making.\nSupported investment reporting system implementation by integrating and validating portfolio data while developing Power BI and Tableau visualizations to analyze portfolio performance, asset allocation, market trends, and risk metrics.",
+      "responsibilities": [
+        "Implemented portfolio risk assessment frameworks by analyzing diversified investments, equity compensation holdings, and market trends using Advanced Excel, Bloomberg Terminal, SQL, and Pitchbook, improving portfolio risk visibility and operational efficiency by 40%",
+        "Performed investment and financial analysis by evaluating asset allocation, cash flow projections, and market performance through quantitative modeling, enabling data-driven portfolio optimization and personalized wealth management strategies for high-net-worth clients",
+        "Generated executive market research and competitor analysis reports using Bloomberg Terminal, Excel, and Pitchbook, identifying investment opportunities and supporting strategic portfolio recommendations that strengthened client decision-making",
+        "Supported investment reporting system implementation by integrating and validating portfolio data while developing Power BI and Tableau visualizations to analyze portfolio performance, asset allocation, market trends, and risk metrics"
+      ],
+      "technologies": [
+        "Advanced Excel",
+        "Bloomberg Terminal",
+        "SQL",
+        "Pitchbook",
+        "Excel",
+        "Power BI",
+        "Tableau"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "BidForms Solution",
+      "logo": "",
+      "period": "Jan 2022 – Dec 2022",
+      "location": "",
+      "description": "Designed interactive Power BI dashboards by integrating contractor qualification, operational, and financial datasets using SQL and Advanced Excel, enabling leadership to monitor KPIs across 5 enterprise client accounts and improve reporting efficiency by 30%.\nAnalyzed market adoption trends, customer behavior, and product performance using Excel, SQL, and business intelligence techniques, identifying growth opportunities that supported strategic product planning and client onboarding initiatives.\nFacilitated cross-functional collaboration between finance, product, and engineering teams by translating contractor qualification metrics into executive-ready reports using Power BI and Excel, improving stakeholder visibility into operational performance.\nSupported system implementation by integrating financial and operational datasets using SQL and Excel, and developed Power BI and Tableau dashboards to visualize KPIs, customer trends, and performance metrics for executive reporting.",
+      "responsibilities": [
+        "Designed interactive Power BI dashboards by integrating contractor qualification, operational, and financial datasets using SQL and Advanced Excel, enabling leadership to monitor KPIs across 5 enterprise client accounts and improve reporting efficiency by 30%",
+        "Analyzed market adoption trends, customer behavior, and product performance using Excel, SQL, and business intelligence techniques, identifying growth opportunities that supported strategic product planning and client onboarding initiatives",
+        "Facilitated cross-functional collaboration between finance, product, and engineering teams by translating contractor qualification metrics into executive-ready reports using Power BI and Excel, improving stakeholder visibility into operational performance",
+        "Supported system implementation by integrating financial and operational datasets using SQL and Excel, and developed Power BI and Tableau dashboards to visualize KPIs, customer trends, and performance metrics for executive reporting"
+      ],
+      "technologies": [
+        "Power BI",
+        "SQL",
+        "Advanced Excel",
+        "Excel",
+        "Tableau"
+      ]
+    }
+  ]
+}

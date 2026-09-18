@@ -1,0 +1,18 @@
+{
+  "sectionTitle": "Education",
+  "subtitle": "Academic foundation supporting my professional work.",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Bachelor of Arts in Business Management Economics",
+      "school": "University of California, Santa Cruz, CA, USA",
+      "institution": "University of California, Santa Cruz, CA, USA",
+      "period": "Jan 2021 – Dec 2024",
+      "details": "",
+      "description": "",
+      "icon": "fas fa-graduation-cap",
+      "color": "#2FC4B2"
+    }
+  ],
+  "certifications": []
+}

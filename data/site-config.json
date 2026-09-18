@@ -1,0 +1,25 @@
+{
+  "title": "Abhinash Pandey | Financial Analyst",
+  "description": "Financial Analyst with 4+ years of experience delivering financial analysis, valuation, financial modeling, investment analysis, and risk assessment across banking, wealth management, and technolog...",
+  "keywords": "Abhinash Pandey, Financial Analyst, Portfolio, SQL, Python, VBA, Microsoft Excel (Advanced), Power BI, Tableau, Bloomberg Terminal, Pitchbook",
+  "author": "Abhinash Pandey",
+  "siteName": "Abhinash Pandey",
+  "siteTitle": "Abhinash Pandey | Financial Analyst",
+  "meta": {
+    "title": "Abhinash Pandey | Financial Analyst",
+    "description": "Financial Analyst with 4+ years of experience delivering financial analysis, valuation, financial modeling, investment analysis, and risk assessment across banking, wealth management, and technolog...",
+    "author": "Abhinash Pandey",
+    "keywords": "Abhinash Pandey, Financial Analyst, Portfolio, SQL, Python, VBA, Microsoft Excel (Advanced), Power BI, Tableau, Bloomberg Terminal, Pitchbook"
+  },
+  "branding": {
+    "name": "Abhinash Pandey",
+    "tagline": "Financial Analyst",
+    "logo": "/logo.png"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "enableParticles": true,
+    "navbarScrollEffect": true
+  }
+}

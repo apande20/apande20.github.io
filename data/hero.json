@@ -1,0 +1,59 @@
+{
+  "greeting": "Portfolio",
+  "name": "Abhinash Pandey",
+  "title": "Financial Analyst",
+  "summary": "Financial Analyst with 4+ years of experience delivering financial analysis, valuation, financial modeling, investment analysis, and risk assessment across banking, wealth management, and technology. Proficient in Advanced Excel, SQL, Python, VBA, Power BI, Bloomberg Terminal, and Pitchbook to build financial models, automate reporting, and generate actionable business insights. Expertise in business combinations, revenue recognition, portfolio analysis, regulatory compliance, and executive reporting, driving process improvements, stronger financial governance, and data-driven strategic decisions.",
+  "avatarUrl": "",
+  "tagline": "SQL / Python / VBA / Microsoft Excel (Advanced) / Power BI",
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "text": "4+ Years Experience",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "text": "1 Projects Delivered",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "text": "SQL, Python, VBA",
+      "color": "#FFE66D"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "Contact Me",
+        "href": "#contact",
+        "type": "primary",
+        "external": false,
+        "icon": "fas fa-envelope"
+      },
+      {
+        "text": "Explore Projects",
+        "href": "#projects",
+        "type": "secondary",
+        "external": false,
+        "icon": "fas fa-chart-line"
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/abhinashpandey1/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:abhinash.p3710@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "scrollIndicator": {
+    "text": "Scroll to explore",
+    "icon": "fas fa-chevron-down"
+  }
+}

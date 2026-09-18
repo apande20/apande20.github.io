@@ -1,0 +1,40 @@
+{
+  "sectionTitle": "About",
+  "subtitle": "A closer look at my background, how I work, and the results I deliver.",
+  "image": "",
+  "paragraphs": [
+    "Financial Analyst with 4+ years of experience delivering financial analysis, valuation, financial modeling, investment analysis, and risk assessment across banking, wealth management, and technology. Proficient in Advanced Excel, SQL, Python, VBA, Power BI, Bloomberg Terminal, and Pitchbook to build financial models, automate reporting, and generate actionable business insights.",
+    "Expertise in business combinations, revenue recognition, portfolio analysis, regulatory compliance, and executive reporting, driving process improvements, stronger financial governance, and data-driven strategic decisions."
+  ],
+  "statistics": [
+    {
+      "icon": "fas fa-briefcase",
+      "value": "4+",
+      "label": "Years Experience",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "value": "1",
+      "label": "Projects",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-building",
+      "value": "3",
+      "label": "Companies",
+      "color": "#FFE66D"
+    },
+    {
+      "icon": "fas fa-code",
+      "value": "55+",
+      "label": "Technologies",
+      "color": "#A8DADC"
+    }
+  ],
+  "downloadCV": {
+    "text": "Get In Touch",
+    "href": "mailto:abhinash.p3710@gmail.com",
+    "icon": "fas fa-envelope"
+  }
+}
