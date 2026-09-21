@@ -339,7 +339,10 @@ async function loadProjects() {
         if (projectsGrid && data.projects) {
             projectsGrid.innerHTML = data.projects.map((project, index) => `
                 <div class="project-card" style="--project-color: ${project.color}">
-                    <div class="project-visual">
+                    <div class="project-visual${project.image ? ' has-image' : ''}">
+                        ${project.image ? `
+                            <img class="project-image" src="${project.image}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-image'); this.remove();">
+                        ` : ''}
                         <div class="project-icon" style="background: ${project.color}">
                             <i class="${project.icon}"></i>
                         </div>
