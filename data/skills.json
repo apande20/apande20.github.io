@@ -1,71 +1,103 @@
 {
   "sectionTitle": "Capabilities",
-  "subtitle": "A focused toolkit built through hands-on, real-world work.",
-  "categories": [
+  "subtitle": "The tools I use every day, and the finance work I use them for.",
+  "tools": [
     {
-      "category": "Programming Languages",
-      "icon": "fas fa-code",
-      "color": "#FF6B6B",
-      "skills": [
+      "group": "Languages",
+      "items": [
         "SQL",
         "Python",
         "VBA"
       ]
     },
     {
-      "category": "Tools & Platforms",
-      "icon": "fas fa-wrench",
-      "color": "#FFE66D",
-      "skills": [
+      "group": "Modeling and BI",
+      "items": [
         "Microsoft Excel (Advanced)",
         "Power BI",
-        "Tableau",
-        "Bloomberg Terminal",
-        "Pitchbook",
-        "Salesforce CRM",
-        "Microsoft PowerPoint"
+        "Tableau"
       ]
     },
     {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
-      "color": "#A8DADC",
+      "group": "Market data",
+      "items": [
+        "Bloomberg Terminal",
+        "Pitchbook"
+      ]
+    },
+    {
+      "group": "Business",
+      "items": [
+        "Salesforce CRM",
+        "Microsoft PowerPoint"
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "name": "Valuation and transactions",
+      "skills": [
+        "Valuation (Fair Value & Fair Market Value)",
+        "M&A Analysis",
+        "Due Diligence",
+        "Business Combinations",
+        "Investment Analysis",
+        "Cash Flow Analysis"
+      ]
+    },
+    {
+      "name": "Modeling and forecasting",
       "skills": [
         "Financial Analysis",
         "Financial Modeling",
         "Financial Forecasting",
         "Revenue Analysis",
-        "Financial Reporting",
-        "Valuation (Fair Value & Fair Market Value)",
-        "M&A Analysis",
-        "Due Diligence",
-        "Business Combinations",
-        "Equity Accounting",
+        "Quantitative Analysis",
+        "Trend Analysis",
+        "Operational Analysis"
+      ]
+    },
+    {
+      "name": "Accounting and equity",
+      "skills": [
+        "GAAP",
         "Revenue Recognition",
-        "Cash Flow Analysis",
-        "Investment Analysis",
-        "Portfolio Analysis",
-        "Portfolio Risk Assessment",
-        "Risk Assessment",
-        "Risk Analysis",
-        "Market Research",
-        "Competitor Analysis",
-        "Market Trend Analysis",
-        "Asset Allocation",
+        "Equity Accounting",
+        "Financial Reporting",
         "Equity Compensation Analysis",
         "RSUs",
-        "Stock Options",
-        "GAAP",
+        "Stock Options"
+      ]
+    },
+    {
+      "name": "Portfolio, risk and markets",
+      "skills": [
+        "Portfolio Analysis",
+        "Portfolio Risk Assessment",
+        "Asset Allocation",
+        "Risk Assessment",
+        "Risk Analysis",
+        "Risk Mitigation",
+        "Market Research",
+        "Market Trend Analysis",
+        "Competitor Analysis"
+      ]
+    },
+    {
+      "name": "Controls and compliance",
+      "skills": [
         "Internal Controls Testing",
         "Internal Control Evaluation",
         "Audit Documentation",
         "Regulatory Compliance",
         "SEC Compliance",
         "Fiduciary Compliance",
-        "Financial Governance",
-        "Risk Mitigation",
-        "Process Improvement",
-        "System Implementation",
+        "Financial Governance"
+      ]
+    },
+    {
+      "name": "Reporting and business intelligence",
+      "skills": [
         "Data Analysis",
         "Business Intelligence",
         "KPI Reporting",
@@ -73,9 +105,8 @@
         "Financial Dashboard Development",
         "Performance Reporting",
         "Data Visualization",
-        "Trend Analysis",
-        "Quantitative Analysis",
-        "Operational Analysis"
+        "Process Improvement",
+        "System Implementation"
       ]
     }
   ]

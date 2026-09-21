@@ -936,73 +936,119 @@ textarea:focus-visible {
 }
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: var(--spacing-lg);
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.skill-category {
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.035));
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: var(--radius-xl);
+/* Toolkit: one quiet strip of the software he works in */
+.skill-toolkit {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    gap: var(--spacing-lg);
     padding: var(--spacing-lg);
-    transition: all var(--transition-normal);
+    margin-bottom: var(--spacing-xl);
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-xl);
 }
 
-.skill-category:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.2);
-    box-shadow: var(--shadow-xl);
+.skill-toolkit-title,
+.skill-category-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--color-text-primary);
+    line-height: 1.2;
 }
 
-.skill-category-header {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-sm);
-    margin-bottom: var(--spacing-md);
-}
-
-.skill-category-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: var(--radius-sm);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.skill-toolkit-title {
     font-size: var(--font-size-xl);
 }
 
-.skill-category-title {
-    font-size: var(--font-size-md);
-    font-weight: 700;
+.skill-toolkit-groups {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--spacing-md);
+}
+
+.skill-tool-group-name {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-size: var(--font-size-xs);
+    color: var(--color-accent-2);
+}
+
+.skill-tool-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.35rem;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
     color: var(--color-text-primary);
+}
+
+/* Ledger: one row per area of expertise */
+.skill-ledger {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.skill-category {
+    display: grid;
+    grid-template-columns: 17rem 1fr;
+    gap: var(--spacing-lg);
+    align-items: start;
+    padding: var(--spacing-md) 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.skill-category-title {
+    font-size: var(--font-size-lg);
+    transition: color var(--transition-fast);
+}
+
+.skill-category:hover .skill-category-title {
+    color: var(--color-accent-2);
 }
 
 .skill-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: var(--spacing-xs);
+    gap: 0.5rem;
 }
 
 .skill-tag {
-    padding: var(--spacing-xs) var(--spacing-sm);
-    background: rgba(255, 255, 255, 0.055);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: var(--radius-sm);
+    padding: 0.4rem 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-full);
     font-size: var(--font-size-xs);
     color: var(--color-text-secondary);
-    transition: all var(--transition-fast);
-    word-break: break-word;
+    line-height: 1.3;
 }
 
-.skill-tag:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.2);
-    color: var(--color-text-primary);
-    transform: translateY(-2px);
+@media (max-width: 968px) {
+    .skill-toolkit {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .skill-toolkit-groups {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .skill-category {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-toolkit {
+        padding: var(--spacing-md);
+    }
 }
 
 /* ============================================
@@ -1782,10 +1828,6 @@ textarea:focus-visible {
     }
 
     .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .skills-grid {
         grid-template-columns: 1fr;
     }
 

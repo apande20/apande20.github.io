@@ -300,22 +300,40 @@ async function loadSkills() {
         document.getElementById('skills-title').textContent = data.sectionTitle;
         setOptionalText('skills-subtitle', data.subtitle);
 
-        // Render skill categories
+        // Render the toolkit strip, then one ledger row per area of expertise
         const skillsGrid = document.getElementById('skills-grid');
-        if (skillsGrid && data.categories) {
-            skillsGrid.innerHTML = data.categories.map(category => `
-                <div class="skill-category">
-                    <div class="skill-category-header">
-                        <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
-                            <i class="${category.icon}"></i>
+        if (skillsGrid) {
+            const tools = data.tools || [];
+            const domains = data.domains || [];
+            skillsGrid.innerHTML = `
+                ${tools.length ? `
+                    <div class="skill-toolkit">
+                        <h3 class="skill-toolkit-title">Toolkit</h3>
+                        <div class="skill-toolkit-groups">
+                            ${tools.map(group => `
+                                <div class="skill-tool-group">
+                                    <span class="skill-tool-group-name">${group.group}</span>
+                                    <ul class="skill-tool-list">
+                                        ${group.items.map(item => `<li>${item}</li>`).join('')}
+                                    </ul>
+                                </div>
+                            `).join('')}
                         </div>
-                        <h3 class="skill-category-title">${category.category}</h3>
                     </div>
-                    <div class="skill-list">
-                        ${category.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                ` : ''}
+                ${domains.length ? `
+                    <div class="skill-ledger">
+                        ${domains.map(domain => `
+                            <div class="skill-category">
+                                <h3 class="skill-category-title">${domain.name}</h3>
+                                <ul class="skill-list">
+                                    ${domain.skills.map(skill => `<li class="skill-tag">${skill}</li>`).join('')}
+                                </ul>
+                            </div>
+                        `).join('')}
                     </div>
-                </div>
-            `).join('');
+                ` : ''}
+            `;
         }
     } catch (error) {
         console.error('Error loading skills section:', error);
